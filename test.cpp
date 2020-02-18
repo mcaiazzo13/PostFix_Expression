@@ -12,7 +12,6 @@ using namespace std;
         // number found
         if(V.at(i) != "+" && V.at(i) != "-" && V.at(i) != "*"){ 
             x = stoi(V.at(i));
-            cout << "x : " << x <<endl;
             stack.push_back(x);
         }else if(V.at(i) == "+"){ // symbol +
             x = stack.back();
@@ -51,7 +50,7 @@ int main() {
         exit(1);
     }
     vector<string> exp(N);
-    cout << "Insert The expression with numbers and symbols : ";
+    cout << "Insert The expression with numbers and symbols : " <<endl;
     for(i=0;i<N;i++){
         cin >> exp[i];
     }
