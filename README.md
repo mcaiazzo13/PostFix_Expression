@@ -1,0 +1,2 @@
+# PostFix_Expression
+This program is for evaluation of postfix expression. This program assume that there are only three operators * (*, +, -) in an expression and operand is single digit only. Further this program does not do any error handling e.g, t does not check that entered postfix expression is valid or not. basically the only constraint is the expression's size, it has to be minimum of 2 and maximum of 99.
